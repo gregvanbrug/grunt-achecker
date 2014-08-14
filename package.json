@@ -1,0 +1,48 @@
+{
+  "name": "grunt-achecker",
+  "description": "Check HTML pages with achecker.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/gregvanbrug/grunt-achecker",
+  "author": {
+    "name": "Greg van Brug",
+    "email": "greg.vanbrug@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gregvanbrug/grunt-achecker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gregvanbrug/grunt-achecker/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/gregvanbrug/grunt-achecker/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "request": "~2.40.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5",
+    "matchdep": "~0.3.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin",
+    "achecker",
+    "accessibility",
+    "wcag"
+  ]
+}
