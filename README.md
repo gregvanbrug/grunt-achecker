@@ -1,3 +1,5 @@
+**DEPRECATED:** AChecker website is scheduled to shut down on April 30, 2021. See [W3C Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/ER/tools) for a current lis of accessibility tools.
+
 # grunt-achecker
 
 > Check HTML pages with achecker.
